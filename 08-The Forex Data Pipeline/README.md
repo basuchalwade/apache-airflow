@@ -1,21 +1,3 @@
-# Data Pipeline
-## What is Forex Data?
-[https://finance\.yahoo\.com/chart/EURUSD%3DX](https://finance.yahoo.com/chart/EURUSD%3DX)
-
-![](img/8-The%20Forex%20Data%20Pipeline1.png)
-
-## Forex Data pipeline flowchart
-
-![](img/8-The%20Forex%20Data%20Pipeline2.png)
-
-## Architecture
-
-![](img/8-The%20Forex%20Data%20Pipeline3.png)
-
-## What is DAG?
-
-![](img/8-The%20Forex%20Data%20Pipeline4.png)
-
 # Instructions
 - Refer to the Dags in - ./mnt/airflow/dags
 ## Task 1
@@ -220,4 +202,3 @@ airflow tasks test forex_data_pipeline send_slack_notification 2021-01-01
     - Enable pipeline
     - Trigger pipeline manually
  - Inspect the Hive table has data
- 

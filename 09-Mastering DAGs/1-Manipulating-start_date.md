@@ -1,3 +1,5 @@
+# Manipulating start_date
+
 - Open mnt/dags/start_and_schedule_dag.py
 - Notice start date of dag
 - Notice schedule_interval which is set to run every hour
